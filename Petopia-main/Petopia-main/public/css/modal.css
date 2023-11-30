@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Kufi";
+  src: url("/public/fonts/Reem Kufi Regular.ttf") format("truetype");
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #ffcf24;
+  margin: auto;
+  margin-top: 5%;
+  padding: 20px;
+  border: 1px solid #272635;
+  width: 80%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.modal-button {
+  margin-top: 10px;
+  margin-left: 130px;
+}
+
+#myBtn.align-right {
+  font-family: "Kufi", serif;
+  color: white;
+  background-color: #272635;
+  border: none;
+  padding: 15px 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  right: 65px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  font-size: 24px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+}
+
+/* Profile Form */
+.profile-form {
+  text-align: center;
+}
+
+.profile-picture {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profile-img {
+  max-width: 200px;
+  max-height: 200px;
+  margin-bottom: 10px;
+}
+
+#profile-image-upload {
+  margin-top: 10px;
+}
+
+#profile-description {
+  width: 100%;
+  height: 100px;
+  margin: 10px 0px 10px 30%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Adjust label width */
+form label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  width: 80%; /* Make all labels the same width */
+}
+
+/* Style the input fields */
+form input[type="text"],
+form input[type="number"],
+form textarea {
+  width: 60%; /* Adjust the width as needed */
+  padding: 10px;
+  border: 1px solid #61988e;
+  box-sizing: border-box;
+}
+
+#create-profile-btn {
+  color: white;
+  background-color: #272635;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+#create-profile-btn:hover {
+  background-color: #61988e;
+}
